@@ -1,0 +1,409 @@
+1 a 1
+1 , 2
+1 u 2
+1 M 2
+1 l 2
+1 K 2
+1 e 2
+1 s 2
+1   2
+1 p 2
+1 h 3
+1 t 4
+1 r 4
+1 g 4
+1 k 5
+1 i 5
+1 m 6
+2 el 1
+2 g  1
+2 ng 1
+2 hi 1
+2  i 1
+2  l 1
+2 ka 1
+2 ke 1
+2 ia 1
+2 f, 1
+2 tu 1
+2 pa 1
+2 ri 1
+2 ed 1
+2 ra 1
+2 i, 1
+2 ak 1
+2 an 1
+2 t  1
+2 a  1
+2 it 1
+2 i  2
+2 me 2
+2 fk 2
+2 li 2
+2 ah 2
+3 . K 1
+3 wa, 1
+3 lai 1
+3 yai 1
+3 iwa 1
+3 pun 1
+3  pu 1
+3 mal 1
+3 hat 1
+3 ut, 1
+3 anp 1
+3 tup 1
+3 ami 1
+3 lan 1
+3 .
+
+ 1
+3 rny 1
+3 lir 1
+3 ntu 1
+3 Dan 1
+3 Din 1
+3 kam 1
+3 ah  1
+3 kan 1
+3 ban 1
+3  se 1
+3 ata 1
+3 . D 1
+3 da  1
+3 mu. 1
+3 lah 2
+3 ber 2
+3  ke 2
+3 nya 3
+3 dan 4
+4 dih, 1
+4 .
+
+D 1
+4 anya 1
+4 ada  1
+4 hari 1
+4 di r 1
+4  ini 1
+4 
+Hai 1
+4 glah 1
+4 etap 1
+4 upku 1
+4 tasi 1
+4 !
+
+L 1
+4 Saat 1
+4 nya, 1
+4 s, T 1
+4 inta 1
+4  ter 1
+4 g ke 2
+5 , per 1
+5 nang, 1
+5  Kami 1
+5 elupa 1
+5 man p 1
+5 sedih 1
+5 maaf  1
+5 alu.  1
+5 h, pe 1
+5 kan,  1
+5  saat 1
+5 ah it 1
+5 enuh  1
+5  soal 1
+5 kan!
+ 1
+5 Aku l 1
+5 depan 1
+5  hubu 1
+5 sa. M 1
+5  lagi 1
+5 m saj 1
+5 alu l 1
+5 li ke 1
+5 etela 1
+5  kamu 1
+5 yang` 1
+5 belum 2
+6 Bagiku 1
+6  indah 1
+6 merasa 1
+6  berse 1
+6 terjad 1
+6 mempun 1
+6 seoran 1
+6 t, nam 1
+6  Dina. 1
+6  selal 1
+6 wa ria 1
+6 ma. Hi 1
+6 ngga p 1
+6 menjau 1
+6 Entah  1
+6 kenapa 1
+6  sejak 1
+6 ering  1
+6 el, ia 1
+6  pergi 1
+6 . Menc 1
+6 ari te 1
+6 tiku.  1
+6 a mera 1
+6 sa sak 1
+6 it hat 1
+6 enyesa 1
+6 ingin  1
+6 padany 1
+6 a, tap 1
+6 iti pe 1
+6 rasaan 1
+6 perist 1
+6  itula 1
+6 tanku  1
+6 g. Bah 1
+6 n tak  1
+6  dilem 1
+6 parkan 1
+6  kami  1
+6 bertem 1
+6 u.
+
+Me 1
+6 lihat  1
+6 situas 1
+6 sudah  1
+6  parah 1
+6 rtekad 1
+6  ingin 1
+6  mengu 1
+6 capkan 1
+6 secara 1
+6  kepad 1
+6 anya.  1
+6 Tak ku 1
+6 peduli 1
+6 n lagi 1
+6  rasa  1
+6 u dan  1
+6 bersal 1
+6 pergi  1
+6 kuketu 1
+6 nya. T 1
+6 api, s 1
+6 pintu  1
+6 dibuka 1
+6 . Kuli 1
+6 berdir 1
+6 n waja 1
+6 cember 1
+6 ahku.
+ 1
+6 , Dina 1
+6 . Lama 1
+6 ak ber 1
+6 bicara 1
+6 . Baga 1
+6 imana  1
+6 kabarm 1
+6 u? tan 1
+6 yaku p 1
+6 cemas. 1
+6 
+Tenan 1
+6 baik t 1
+6 a kamu 1
+6 . Sebe 1
+6 narnya 1
+6  apa m 1
+6 aksud  1
+6 kedata 1
+6 nganmu 1
+6  ke si 1
+6 ni? Ta 1
+6 pi maa 1
+6 ahanmu 1
+6 dulu i 1
+6 Tapi,  1
+6 enjela 1
+6 halpun 1
+6 g menu 1
+6 n kera 1
+6 . Taku 1
+6 t nant 1
+6 tambah 1
+6 asih t 1
+6 ri di  1
+6 gagal  1
+6 ngan k 1
+6 di bai 1
+6 pun ha 1
+6 mpir p 1
+6 utus a 1
+6  tak a 1
+6 da jal 1
+6  ditak 1
+6 dirkan 1
+6  tidak 1
+6 ri dem 1
+6  hari  1
+6 rganti 1
+6 . Tak  1
+6 terasa 1
+6 tidak  1
+6  lagi  1
+6 berpap 1
+6 asan a 1
+6 lagi b 1
+6 ercaka 1
+6 p-caka 1
+6 p. Hid 1
+6  tamba 1
+6 h sura 1
+6  itu,  1
+6 kebetu 1
+6 ang be 1
+6  melin 1
+6  jalan 1
+6 menuju 1
+6 ku. Ti 1
+6 ba-tib 1
+6 a, say 1
+6 up-say 1
+6 up kud 1
+6 engar  1
+6 ati ar 1
+6 ah sua 1
+6 ati te 1
+6 ata it 1
+6 yang t 1
+6 erjatu 1
+6 h dari 1
+6 nya. K 1
+6 akinya 1
+6  terki 1
+6  dan l 1
+6 uka. L 1
+6 g kuba 1
+6 i dan  1
+6 kuajak 1
+6 dengan 1
+6  susah 1
+6  payah 1
+6  dioba 1
+6 ti.
+
+S 1
+6 diobat 1
+6 menata 1
+6 ahku s 1
+6 ambil  1
+6 menaha 1
+6 n isak 1
+6  tangi 1
+6 kasih, 1
+6  ya, H 1
+6 ani, a 1
+6 tas pe 1
+6 selama 1
+6  ini t 1
+6 u sedi 1
+6 h.
+Tid 1
+6 ak apa 1
+6 -apa,  1
+6 ikhlas 1
+6  menol 1
+6 ongmu  1
+6 tku, d 1
+6 angat  1
+6 senang 1
+6 Akhirn 1
+6 ya, be 1
+6 menggu 1
+6 mpal d 1
+6 ku ini 1
+6  lenya 1
+6 .
+
+Aku 1
+6 menguc 1
+6 apkan  1
+6 kata-k 1
+6 sunggu 1
+6  senan 1
+6 n Dina 1
+6 kusebu 1
+6 t, ses 1
+6 lalu a 1
+6 buatmu 1
+6 , wala 1
+6 upun i 1
+6  kita  2
+6  terta 2
+6  marah 2
+6  jengk 2
+6 , dan  2
+6 n lain 2
+6  bersa 2
+6 suatu  2
+6  dan m 2
+6 enggan 2
+6 minta  2
+6 menyak 2
+6 nya.
+
+ 2
+6  menja 2
+6 senyum 2
+6 pernah 2
+6 sangat 2
+6 pun be 2
+6  maaf  2
+6 harap  2
+6 erima  2
+6  memaa 2
+6  pintu 2
+6  ke ar 2
+6  kalau 2
+6  kesal 2
+6 memaaf 2
+6  pulan 2
+6  berdi 2
+6  sudah 2
+6 a.
+
+Ha 2
+6 sepeda 2
+6 orang  2
+6 tolong 2
+6 Tolong 2
+6  kudek 2
+6  itu.  2
+6 u adal 2
+6 anmu.  2
+6 i hati 2
+6 an itu 3
+6 kan se 3
+6 padaku 3
+6 anku.  3
+6  aku s 3
+6 ungkin 3
+6  denga 3
+6  kemba 3
+6  untuk 3
+6 embuat 4
+6  aku m 4
+6 arena  5
+6  bisa  5
+6 telah  5
+6 , aku  5
+6 angsun 5
+6 sahaba 7
+6  yang  7
+6  rumah 7
+6 . Aku  8
+6  Dina  11

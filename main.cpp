@@ -60,10 +60,10 @@ struct htlist_head
 void resetEncodeTable();
 void addEncodeTable(bool val);
 
-//void huffTableCreate(htree* node, listHuff* hf);
-//void huffTableRecurPath(htree* node, listHuff* hf, bool dir, bool path[], int pathLen);
-//void huffTableAdd(listHuff* hf,char symbol[], bool path[], int pathLen);
-//void huffTablePrint(listHuff* hf);
+void huffTableCreate(htree* node, listHuff* hf);
+void huffTableRecurPath(htree* node, listHuff* hf, bool dir, bool path[], int pathLen);
+void huffTableAdd(listHuff* hf,char symbol[], bool path[], int pathLen);
+void huffTablePrint(listHuff* hf);
 //
 //void huffTreeCreateFromBit(htree* node,bool path[32],char pathlen,char sim[10]);
 void decodeTable(const char* filename,const char* filenameKey);
@@ -93,6 +93,80 @@ int main(int argc,char **argv)
     decodeTable(filename1,filename2);
     printf("\nauaua\n");
     return 0;
+}
+
+void huffTableCreate(htree* node, listHuff* hf)
+{
+    bool path[100];
+    huffTableRecurPath(node->left, hf,0,path,0);
+    huffTableRecurPath(node->right, hf,1,path,0);
+}
+void huffTableRecurPath(htree* node, listHuff* hf, bool dir, bool path[], int pathLen)
+{
+    if (node==NULL)
+        return;
+    int i;
+  /* append this node to the path array */
+    path[pathLen]=dir;
+    pathLen++;
+
+//    printf("show path %d\n",node->frekuensi);
+  /* it's a leaf, so print the path that led to here  */
+    if (node->left==NULL && node->right==NULL)
+    {
+        huffTableAdd(hf,node->symbol,path,pathLen);
+    }
+    else
+    {
+    /* otherwise try both subtrees */
+
+            huffTableRecurPath(node->left ,hf,0,path,pathLen);
+            huffTableRecurPath(node->right,hf,1,path,pathLen);
+    }
+}
+void huffTableAdd(listHuff* hf,char symbol[], bool path[], int pathLen)
+{
+    int i;
+    huffTable* hh=(huffTable*) malloc(sizeof(huffTable));
+    hh->next=NULL;
+    hh->huff.len=pathLen;
+    strcpy(hh->huff.symbol,symbol);
+
+    for (i=0; i<pathLen; i++)
+    {
+        hh->huff.encode[i]=path[i];
+    }
+
+    if(hf->first==NULL)
+    {
+        hf->first=hh;
+    }else
+    {
+        huffTable* last_symbol=hf->first;
+        while(last_symbol->next!=NULL)
+        {
+            last_symbol=last_symbol->next;
+        }
+        last_symbol->next=hh;
+    }
+    hh=NULL;
+}
+void huffTablePrint(listHuff* hf)
+{
+    int i;int j=0;
+    int countTotalBit=0;
+    huffTable* a=hf->first;
+    while(a!=NULL)
+    {
+        j++;
+        printf("%d ",j);
+        for(i=0;i<a->huff.len;i++)
+        {
+            printf("%d ",a->huff.encode[i]);
+        }
+        printf("%s\n",a->huff.symbol);
+        a=a->next;
+    }
 }
 
 void resetEncodeTable()
@@ -226,17 +300,16 @@ void decodeTable(const char* filename,const char* filenameKey)
 {
     int keycount=0,encodecount=0;
     int i=0,j=0,x=0;
-    int maxi;
+//    int maxi;
     bool whatever;
-    char b=0;
-    char c[2];
+//    char b=0;
+//    char c[4];
 
-    bool path[16];
+//    bool path[32];
 
     char fileOutputName[50];
     int symbolLen,keyFrek,fileLen,fileLenEncode;
     int dataKeyPos;
-    int binaryLen;
     char* bufferFileKey;
     char* bufferFileEnc;
 
@@ -274,26 +347,23 @@ void decodeTable(const char* filename,const char* filenameKey)
     fclose(kk);
 
     htree* itsrandom;
-    huffTable* so_lame=(huffTable*) malloc(sizeof(huffTable)*(keycount+1));
+    listHuff anorandom;
+    anorandom.first=NULL;
     htlist_head* akarpohon=(htlist_head*)malloc(sizeof(htlist_head));
     akarpohon->first=NULL;
 
 //process key file
-    FILE* notimportant=fopen("b_debug.txt","w");
+    FILE* notimportant=fopen("TREE_reconstruct_debug.txt","w");
     i=dataKeyPos;
     while(i<fileLen)
     {
-        symbolLen=bufferFileKey[i]; fprintf(notimportant,"%d ",bufferFileKey[i]);
+        symbolLen=bufferFileKey[i];
         i++;
-        printf("%d len %d ",x,symbolLen);
-
-        for(j=0;j<10;j++)//printf("%d ",symbolLen);
-        {
-            huffSimbol[j]=0;
-        }
+//        printf("%d len %d ",x,symbolLen);
+        strcpy(huffSimbol,"");//printf("%d ",symbolLen);
         for(j=0;j<symbolLen;j++)
         {
-            huffSimbol[j]=bufferFileKey[i]; fprintf(notimportant,"%c",bufferFileKey[i]);
+            huffSimbol[j]=bufferFileKey[i];
 //            printf("%c",bufferFileKey[i]);
             if(bufferFileKey[i]=='\r')
             {
@@ -307,44 +377,30 @@ void decodeTable(const char* filename,const char* filenameKey)
             i++;
         }
         huffSimbol[symbolLen]='\0';//        printf("%s ",huffSimbol);
-        binaryLen=bufferFileKey[i]; fprintf(notimportant," %d ",bufferFileKey[i]);//        printf(" %d ",binaryLen);
+        keyFrek=bufferFileKey[i];  //        printf("%d\n",keyFrek);
         i++;
-//        keyFrek=bufferFileKey[i];  //        printf("%d\n",keyFrek);
-//        i++;
-        for(j=0;j<2;j++)
-        {
-            c[j]=bufferFileKey[i];
-//            printBit(c[j]);
-            i++;
-        }
-
-        for(j=0;j<8;j++)
-        {
-            path[j]=((c[0]&tableBinaryConv[j])&&tableBinaryConv[j]);    fprintf(notimportant,"%d",path[j]);
-        }
-
-        for(j=0;j<8;j++)
-        {
-            path[j+8]=((c[1]&tableBinaryConv[j])&&tableBinaryConv[j]);  fprintf(notimportant,"%d",path[j]);
-        }
-        fprintf(notimportant,"\n");
-
         //add tree list
-//        add_tree_list(akarpohon,huffSimbol,keyFrek);
-        so_lame[x].huff.len=binaryLen;
-        strcpy(so_lame[x].huff.symbol,huffSimbol);
-        for(j=0;j<16;j++)
-        {
-            so_lame[x].huff.encode[j]=path[j];
-        }
-        so_lame[x].next=NULL;
+        add_tree_list(akarpohon,huffSimbol,keyFrek);
 
         x++;
-        printf("\n");
     }
+    fprintf(notimportant,"{list key}\n");
     //create tree
-//    create_tree(akarpohon);
-//    itsrandom=akarpohon->first->branch;
+    create_tree(akarpohon);
+    itsrandom=akarpohon->first->branch;
+    huffTableCreate(itsrandom,&anorandom);
+    huffTablePrint(&anorandom);
+
+    huffTable* a=anorandom.first;
+    while(a!=NULL)
+    {
+        for(i=0;i<a->huff.len;i++)
+        {
+            fprintf(notimportant,"%d",a->huff.encode[i]);
+        }
+        fprintf(notimportant," %s\n",a->huff.symbol);
+        a=a->next;
+    }
 
 
     printf("finished create tree from key\n");
@@ -361,7 +417,13 @@ void decodeTable(const char* filename,const char* filenameKey)
         }
         i++;
     }
-
+    //-------------------------
+    for(i=0;i<encodecount;i++)
+    {
+        fprintf(notimportant,"%d",bitEncode[i]);
+    }
+    fclose(notimportant);
+    //-------------------------
     free(bufferFileKey);
     free(bufferFileEnc);
 

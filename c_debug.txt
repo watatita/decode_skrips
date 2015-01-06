@@ -1,0 +1,410 @@
+{list key}
+a 1
+, 2
+u 2
+M 2
+l 2
+K 2
+e 2
+s 2
+  2
+p 2
+h 3
+t 4
+r 4
+g 4
+k 5
+i 5
+m 6
+el 1
+g  1
+ng 1
+hi 1
+ i 1
+ l 1
+ka 1
+ke 1
+ia 1
+f, 1
+tu 1
+pa 1
+ri 1
+ed 1
+ra 1
+i, 1
+ak 1
+an 1
+t  1
+a  1
+it 1
+i  2
+me 2
+fk 2
+li 2
+ah 2
+. K 1
+wa, 1
+lai 1
+yai 1
+iwa 1
+pun 1
+ pu 1
+mal 1
+hat 1
+ut, 1
+anp 1
+tup 1
+ami 1
+lan 1
+.
+
+ 1
+rny 1
+lir 1
+ntu 1
+Dan 1
+Din 1
+kam 1
+ah  1
+kan 1
+ban 1
+ se 1
+ata 1
+. D 1
+da  1
+mu. 1
+lah 2
+ber 2
+ ke 2
+nya 3
+dan 4
+dih, 1
+.
+
+D 1
+anya 1
+ada  1
+hari 1
+di r 1
+ ini 1
+
+Hai 1
+glah 1
+etap 1
+upku 1
+tasi 1
+!
+
+L 1
+Saat 1
+nya, 1
+s, T 1
+inta 1
+ ter 1
+g ke 2
+, per 1
+nang, 1
+ Kami 1
+elupa 1
+man p 1
+sedih 1
+maaf  1
+alu.  1
+h, pe 1
+kan,  1
+ saat 1
+ah it 1
+enuh  1
+ soal 1
+kan!
+ 1
+Aku l 1
+depan 1
+ hubu 1
+sa. M 1
+ lagi 1
+m saj 1
+alu l 1
+li ke 1
+etela 1
+ kamu 1
+yang` 1
+belum 2
+Bagiku 1
+ indah 1
+merasa 1
+ berse 1
+terjad 1
+mempun 1
+seoran 1
+t, nam 1
+ Dina. 1
+ selal 1
+wa ria 1
+ma. Hi 1
+ngga p 1
+menjau 1
+Entah  1
+kenapa 1
+ sejak 1
+ering  1
+el, ia 1
+ pergi 1
+. Menc 1
+ari te 1
+tiku.  1
+a mera 1
+sa sak 1
+it hat 1
+enyesa 1
+ingin  1
+padany 1
+a, tap 1
+iti pe 1
+rasaan 1
+perist 1
+ itula 1
+tanku  1
+g. Bah 1
+n tak  1
+ dilem 1
+parkan 1
+ kami  1
+bertem 1
+u.
+
+Me 1
+lihat  1
+situas 1
+sudah  1
+ parah 1
+rtekad 1
+ ingin 1
+ mengu 1
+capkan 1
+secara 1
+ kepad 1
+anya.  1
+Tak ku 1
+peduli 1
+n lagi 1
+ rasa  1
+u dan  1
+bersal 1
+pergi  1
+kuketu 1
+nya. T 1
+api, s 1
+pintu  1
+dibuka 1
+. Kuli 1
+berdir 1
+n waja 1
+cember 1
+ahku.
+ 1
+, Dina 1
+. Lama 1
+ak ber 1
+bicara 1
+. Baga 1
+imana  1
+kabarm 1
+u? tan 1
+yaku p 1
+cemas. 1
+
+Tenan 1
+baik t 1
+a kamu 1
+. Sebe 1
+narnya 1
+ apa m 1
+aksud  1
+kedata 1
+nganmu 1
+ ke si 1
+ni? Ta 1
+pi maa 1
+ahanmu 1
+dulu i 1
+Tapi,  1
+enjela 1
+halpun 1
+g menu 1
+n kera 1
+. Taku 1
+t nant 1
+tambah 1
+asih t 1
+ri di  1
+gagal  1
+ngan k 1
+di bai 1
+pun ha 1
+mpir p 1
+utus a 1
+ tak a 1
+da jal 1
+ ditak 1
+dirkan 1
+ tidak 1
+ri dem 1
+ hari  1
+rganti 1
+. Tak  1
+terasa 1
+tidak  1
+ lagi  1
+berpap 1
+asan a 1
+lagi b 1
+ercaka 1
+p-caka 1
+p. Hid 1
+ tamba 1
+h sura 1
+ itu,  1
+kebetu 1
+ang be 1
+ melin 1
+ jalan 1
+menuju 1
+ku. Ti 1
+ba-tib 1
+a, say 1
+up-say 1
+up kud 1
+engar  1
+ati ar 1
+ah sua 1
+ati te 1
+ata it 1
+yang t 1
+erjatu 1
+h dari 1
+nya. K 1
+akinya 1
+ terki 1
+ dan l 1
+uka. L 1
+g kuba 1
+i dan  1
+kuajak 1
+dengan 1
+ susah 1
+ payah 1
+ dioba 1
+ti.
+
+S 1
+diobat 1
+menata 1
+ahku s 1
+ambil  1
+menaha 1
+n isak 1
+ tangi 1
+kasih, 1
+ ya, H 1
+ani, a 1
+tas pe 1
+selama 1
+ ini t 1
+u sedi 1
+h.
+Tid 1
+ak apa 1
+-apa,  1
+ikhlas 1
+ menol 1
+ongmu  1
+tku, d 1
+angat  1
+senang 1
+Akhirn 1
+ya, be 1
+menggu 1
+mpal d 1
+ku ini 1
+ lenya 1
+.
+
+Aku 1
+menguc 1
+apkan  1
+kata-k 1
+sunggu 1
+ senan 1
+n Dina 1
+kusebu 1
+t, ses 1
+lalu a 1
+buatmu 1
+, wala 1
+upun i 1
+ kita  2
+ terta 2
+ marah 2
+ jengk 2
+, dan  2
+n lain 2
+ bersa 2
+suatu  2
+ dan m 2
+enggan 2
+minta  2
+menyak 2
+nya.
+
+ 2
+ menja 2
+senyum 2
+pernah 2
+sangat 2
+pun be 2
+ maaf  2
+harap  2
+erima  2
+ memaa 2
+ pintu 2
+ ke ar 2
+ kalau 2
+ kesal 2
+memaaf 2
+ pulan 2
+ berdi 2
+ sudah 2
+a.
+
+Ha 2
+sepeda 2
+orang  2
+tolong 2
+Tolong 2
+ kudek 2
+ itu.  2
+u adal 2
+anmu.  2
+i hati 2
+an itu 3
+kan se 3
+padaku 3
+anku.  3
+ aku s 3
+ungkin 3
+ denga 3
+ kemba 3
+ untuk 3
+embuat 4
+ aku m 4
+arena  5
+ bisa  5
+telah  5
+, aku  5
+angsun 5
+sahaba 7
+ yang  7
+ rumah 7
+. Aku  8
+ Dina  11
