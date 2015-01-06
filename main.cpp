@@ -4,7 +4,7 @@
 #include <malloc.h>
 
 #define _DEBUG_MODE_
-#define START_ENCODE_POS    4
+#define START_ENCODE_POS    0
 
 bool* bitEncode;
 int bitLen;
